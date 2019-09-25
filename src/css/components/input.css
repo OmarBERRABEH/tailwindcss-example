@@ -1,0 +1,13 @@
+/* custom input component */
+.input {
+    @apply 
+        border
+        border-gray-300
+        shadow-inner
+        py-2
+        px-3
+        text-gray-700;
+    &:focus {
+        @apply shadow-outline;
+    }
+}
